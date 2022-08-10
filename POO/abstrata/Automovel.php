@@ -9,6 +9,7 @@ interface Veiculo {
 
 }
 
+
 abstract class Automovel implements Veiculo {
 
 	public function acelerar($velocidade){
@@ -24,18 +25,6 @@ abstract class Automovel implements Veiculo {
 	}
 
 }
-
-class DelRey extends Automovel {
-
-	public function empurrar(){
-
-	}
-
-}
-
-$carro = new DelRey();
-
-$carro->acelerar(200);
 
 
  ?>
